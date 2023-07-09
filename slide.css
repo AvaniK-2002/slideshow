@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;1,200;1,600&display=swap');
+/* to import external stylesheet */
+:root{
+	--main-color:#bc09ee;
+}
+*{
+	font-family: 'Nunito', sans-serif;
+	margin:0; padding:0;
+	
+	
+}
+
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+	
+
+}
+
+
+
+
+body{
+background: url(img/bac.png);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.home .content{
+	text-align: center;
+	margin: 2rem auto;
+	max-width: 70rem;
+	
+
+}
+
+.home .content h3{
+	color: rgb(243, 237, 242);
+	font-size: 4.5rem;
+	text-transform: uppercase;
+	
+	
+}
+
+.home .content h3 span{
+	color: var(--main-color);
+	font-size: 4.5rem;
+	text-transform: uppercase;
+	
+}
+
+
+.home .home-slider .swiper-slide{
+	overflow: hidden;
+	border-radius: .5rem;
+	height: 50rem;
+	width: 35rem;
+	
+}
+
+.home .home-slider .swiper-slide img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	
+}
+
+
+
+
+
+
+
+/* media queries */
+
+@media(max-width:450px){
+	html{
+		font-size: 50%;
+		
+	}
+	
+	.home .home-slider .swiper-slide{
+		width: 27rem;
+	}
+}
+
+
+
+
